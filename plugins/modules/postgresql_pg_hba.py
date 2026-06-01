@@ -161,6 +161,9 @@ attributes:
   diff_mode:
     support: full
     description: Will return details on what has changed (or possibly needs changing in check_mode), when in diff mode
+  idempotent:
+    support: full
+    description: When run twice in a row outside check mode, with the same values, the second run indicates no change
 
 author:
 - Sebastiaan Mannem (@sebasmannem)
